@@ -59,7 +59,15 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi! I'm Afonso\n`} <br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack", "Scrum", "Algorithms" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a motivated and ambitious 21 year old currently pursuing a Master's degree in Informatics and Computing Engineering. With a passion for problem-solving, I have already gained practical experience through an internship, further honing my skills in cyber security, however, I would like to pursue the role of a software engineer in the future.</p>
+                  <p>I am a motivated and ambitious 21-year-old currently pursuing a Master's degree in 
+                    Informatics and Computing Engineering. I have a strong interest in problem-solving 
+                    and have already obtained real-world experience through an internship, which has 
+                    helped me hone my cybersecurity abilities.
+                  </p>
+                  <p>
+                    I feel I am ready to embark on my professional journey as a software engineer, and 
+                    am excited to start working with a team of professionals that will guide me along the way.
+                  </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                   <button className="cv" onClick={() => console.log('connect')}>Download CV {element}</button>
               </div>}

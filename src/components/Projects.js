@@ -11,33 +11,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Bookstore Website",
+      description: "Developed an e-commerce website based on Laravel",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Asteroid Game",
+      description: "Implemented graphics cards, keyboard and mouse drivers for a game in C ",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Mobile App",
+      description: "Designed a mobile app for FEUP students by accessing the API of the official website",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Website for restaurant recommendations",
+      description: "Developed a restaurant recommendation website using PHP",
       imgUrl: projImg1,
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
+      description: "Implemented a local-first app that allows real-time collaborative editing, using Amazon Dynamo and CRDTs",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Premier League Search Engine",
+      description: "Developed a search engine for Premier League related statistics and news",
       imgUrl: projImg3,
     },
   ];
@@ -58,7 +58,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Courses</Nav.Link>
+                      <Nav.Link eventKey="second">Experience</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Certifications</Nav.Link>
@@ -79,7 +79,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
