@@ -1,8 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg from "../assets/img/proj_lbaw.png";
+import projImg2 from "../assets/img/proj_aed.png";
+import projImg3 from "../assets/img/proj_lcom.JPG";
+import projImg4 from "../assets/img/under_work.jpg";
+import projImg5 from "../assets/img/proj_esof.JPG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,32 +15,38 @@ export const Projects = () => {
     {
       title: "Bookstore Website",
       description: "Developed an e-commerce website based on Laravel",
-      imgUrl: projImg1,
+      imgUrl: projImg,
+      url: "aaa",
     },
     {
       title: "Asteroid Game",
       description: "Implemented graphics cards, keyboard and mouse drivers for a game in C ",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
+      url: "aaa",
     },
     {
       title: "Mobile App",
       description: "Designed a mobile app for FEUP students by accessing the API of the official website",
-      imgUrl: projImg3,
+      imgUrl: projImg5,
+      url: "aaa",
     },
     {
-      title: "Website for restaurant recommendations",
-      description: "Developed a restaurant recommendation website using PHP",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Implemented a local-first app that allows real-time collaborative editing, using Amazon Dynamo and CRDTs",
+      title: "Quickest path",
+      description: "Mapped STCP bus stops to a graph in order to find quickest route between two coordinates",
       imgUrl: projImg2,
+      url: "aaa",
+    },
+    {
+      title: "Real-time editor app",
+      description: "Implemented a local-first app that allows real-time collaborative editing, using Amazon Dynamo and CRDTs",
+      imgUrl: projImg4,
+      url: "aaa",
     },
     {
       title: "Premier League Search Engine",
       description: "Developed a search engine for Premier League related statistics and news",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
+      url: "aaa",
     },
   ];
 
