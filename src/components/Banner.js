@@ -6,6 +6,10 @@ import headerImg from "../assets/img/photo.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -16,6 +20,14 @@ export const Banner = () => {
   const toRotate = [ "Frontend", "Backend", "Full-Stack" ];
   const period = 2000;
   const element = <FontAwesomeIcon icon={faDownload} />
+  const cvFilePath = "../assets/Curriculum.pdf";
+
+  const handleDownloadCV = () => {
+    const anchor = document.createElement("a");
+    anchor.href = cvFilePath;
+    anchor.download = "your-cv.pdf"; // Customize the filename as needed
+    anchor.click();
+  };
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -51,6 +63,7 @@ export const Banner = () => {
   }
 
   return (
+    <Router>
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
@@ -68,8 +81,12 @@ export const Banner = () => {
                     I feel I am ready to embark on my professional journey as a software engineer, and 
                     am excited to start working with a team of professionals that will guide me along the way.
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-                  <button className="cv" onClick={() => console.log('connect')}>Download CV {element}</button>
+                  <button>
+                    <HashLink to="#connect" >
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </HashLink>
+                  </button>
+                  <button className="cv bton" onClick={handleDownloadCV}>Download CV {element}</button>
               </div>}
             </TrackVisibility>
           </Col>
@@ -84,5 +101,6 @@ export const Banner = () => {
         </Row>
       </Container>
     </section>
+    </Router>
   )
 }

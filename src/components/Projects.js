@@ -88,7 +88,26 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p className="internship">Curricular Internship | SecurNet</p>
+                      <p className="internship">February - June 2023</p>
+                      <ul className="intern">
+                        <li className="menu-item">
+                        Penetration testing was conceptualised and carried out to find potential flaws and verify tool coverage 
+                        in distributed systems I had configured. To be ready for this, I studied the fundamentals of pen testing 
+                        and discussed the project's crucial areas with the project's stakeholders.
+                        </li>
+                        <li className="menu-item">
+                        A SOAR (Security Orchestration, Automation and reaction) system was created by automating the SOC 
+                        (Security Operations Centre) to increase availability and reaction times. I employed open source software 
+                        such as Shuffle, theHive, and Cortex for this.
+                        </li>
+                        <li className="menu-item">
+                        To increase the availability and completeness of the product, I integrated several open source tools into Wazuh, the SIEM I was working on.
+                        </li>
+                      </ul>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="third">
+                      <p>Still working on that</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
