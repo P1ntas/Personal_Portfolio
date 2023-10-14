@@ -538,14 +538,6 @@ a:-webkit-any-link:hover {
   width: 90%;
 }
 
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
-}
-
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -716,14 +708,6 @@ a:-webkit-any-link:hover {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
-}
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
 }
 
 /************ Projects Css ************/
