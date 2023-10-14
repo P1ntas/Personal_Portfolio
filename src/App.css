@@ -532,8 +532,12 @@ a:-webkit-any-link:hover {
 }
 .skill-slider .item img {
   width: 50%;
-  margin: 0 auto 15px auto;
+  margin: -40px auto 0 auto;
 }
+.skill-slider .item img:first-child {
+  width: 90%;
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
