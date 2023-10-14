@@ -16,19 +16,19 @@ export const Projects = () => {
       title: "Bookstore Website",
       description: "Developed an e-commerce website based on Laravel",
       imgUrl: projImg,
-      url: "aaa",
+      url: "https://github.com/P1ntas/LBAW",
     },
     {
       title: "Asteroid Game",
       description: "Implemented graphics cards, keyboard and mouse drivers for a game in C ",
       imgUrl: projImg3,
-      url: "aaa",
+      url: "https://github.com/P1ntas/LCOM",
     },
     {
       title: "Mobile App",
       description: "Designed a mobile app for FEUP students by accessing the API of the official website",
       imgUrl: projImg5,
-      url: "aaa",
+      url: "https://github.com/P1ntas/ESOF",
     },
     {
       title: "Quickest path",
