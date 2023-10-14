@@ -599,6 +599,12 @@ a:-webkit-any-link:hover {
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
+@media only screen and (max-width: 1000px) {
+  .nav-item a {
+    font-size: 11px !important;
+  }
+}
+  
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
@@ -734,6 +740,23 @@ a:-webkit-any-link:hover {
 	font-weight: 700;
   margin-bottom: 30px;
 }
+
+.textarea textarea{
+  min-width: 30em;
+}
+
+@media (max-width:1000px) {
+	.textarea textarea{
+    min-width: 20em;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+	.textarea textarea{
+    min-width: 25em;
+  }
+}
+
 .contact form input, .contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
