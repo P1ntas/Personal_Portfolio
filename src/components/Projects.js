@@ -32,9 +32,9 @@ export const Projects = () => {
     },
     {
       title: "Quickest path",
-      description: "Mapped STCP bus stops to a graph in order to find quickest route between two coordinates",
+      description: "Mapped STCP bus stops to residual graphs in order to find quickest route between two coordinates",
       imgUrl: projImg2,
-      url: "aaa",
+      url: "https://www.github.com/P1ntas/DA_Project_2",
     },
     {
       title: "Real-time editor app",
