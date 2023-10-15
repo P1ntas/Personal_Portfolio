@@ -112,6 +112,12 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
     width: 9%;
 }
+
+@media only screen and (max-width: 800px) {
+  nav.navbar a.navbar-brand {
+    width: 30%;
+  }
+}
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: var(--primary) !important;
@@ -532,7 +538,7 @@ a:-webkit-any-link:hover {
 }
 .skill-slider .item img {
   width: 50%;
-  margin: -40px auto 0 auto;
+  margin: -30px auto 0 auto;
 }
 .skill-slider .item img:first-child {
   width: 90%;
@@ -593,7 +599,7 @@ a:-webkit-any-link:hover {
 }
 @media only screen and (max-width: 1000px) {
   .nav-item a {
-    font-size: 11px !important;
+    font-size: 9px !important;
   }
 }
   
