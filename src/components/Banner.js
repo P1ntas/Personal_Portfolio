@@ -25,7 +25,7 @@ export const Banner = () => {
   const handleDownloadCV = () => {
     const anchor = document.createElement("a");
     anchor.href = cvFilePath;
-    anchor.download = "your-cv.pdf"; // Customize the filename as needed
+    anchor.download = "CV_Afonso_Pinto.pdf";
     anchor.click();
   };
 
