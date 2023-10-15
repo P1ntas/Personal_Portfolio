@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import headerImg from "../assets/img/photo.png";
+import CV from "../assets/Curriculum.pdf";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,11 +21,10 @@ export const Banner = () => {
   const toRotate = [ "Frontend", "Backend", "Full-Stack" ];
   const period = 2000;
   const element = <FontAwesomeIcon icon={faDownload} />
-  const cvFilePath = "../assets/Curriculum.pdf";
 
   const handleDownloadCV = () => {
     const anchor = document.createElement("a");
-    anchor.href = cvFilePath;
+    anchor.href = CV;
     anchor.download = "CV_Afonso_Pinto.pdf";
     anchor.click();
   };
