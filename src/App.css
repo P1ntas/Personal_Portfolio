@@ -375,6 +375,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+
 .banner {
   margin: 240px 0 140px 0;
   background-position: top center;
@@ -406,6 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .banner button:first-of-type {
   margin-top: 40px;

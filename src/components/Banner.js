@@ -82,7 +82,7 @@ export const Banner = () => {
                     am excited to start working with a team of professionals that will guide me along the way.
                   </p>
                   <button>
-                    <HashLink to="#connect" >
+                    <HashLink to="#connect" style={{ textDecoration: 'none', color: '#0C4160'}}>
                       Let’s Connect <ArrowRightCircle size={25} />
                     </HashLink>
                   </button>
