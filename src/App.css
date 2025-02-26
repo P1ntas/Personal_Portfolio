@@ -588,6 +588,7 @@ a:-webkit-any-link:hover {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+  padding: 0;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -716,6 +717,24 @@ a:-webkit-any-link:hover {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+}
+
+.tthesis {
+  font-weight: bold;
+  width: 100% !important;
+}
+
+.tthesiscon {
+  text-align: justify !important;
+  width: 80% !important;
+}
+
+.int2 {
+  list-style: none;
+}
+
+.int3 {
+  margin-bottom: 70px;
 }
 
 /************ Projects Css ************/

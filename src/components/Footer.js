@@ -18,10 +18,16 @@ export const Footer = () => {
               <a href="https://github.com/P1ntas"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://instagram.com/afonso_pinto_02?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2023 &copy;<br />All Rights Reserved</p>
+            <p>Copyright <span id="year"></span> &copy;<br />All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
     </footer>
   )
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const yearElement = document.getElementById("year");
+  const currentYear = new Date().getFullYear();
+  yearElement.textContent = currentYear;
+});

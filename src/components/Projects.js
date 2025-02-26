@@ -68,7 +68,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Experience</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Certifications</Nav.Link>
+                      <Nav.Link eventKey="third">Thesis</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -87,26 +87,55 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p className="internship">Curricular Internship | SecurNet</p>
-                      <p className="internship">February - June 2023</p>
+                    <p className="internship">Research Intern | Kevel</p>
+                      <p className="internship">September 2024 – July 2025</p>
+                      <ul className="intern int3">
+                        <li className="menu-item">
+                        Designed and developed an open-source SOAR (Security Orchestration, Automation, and Response) system using Wazuh, Shuffle, and theHive.
+                        </li>
+                        <li className="menu-item">
+                        This solution provides a cost-effective alternative to existing offerings by eliminating licensing expenses.
+                        </li>
+                        <li className="menu-item">
+                        Automated SOC workflows to accelerate incident response by 70% in distributed environments.
+                        </li>
+                        <li className="menu-item">
+                        Analyzed vulnerabilities with penetration testing, improving detection coverage by 50%.
+                        </li>
+                        <li>
+                        Integrated open-source tools into existing software, delivering real-time alerts for critical incidents.
+                        </li>
+                      </ul>
+                      <p className="internship">Software Engineer Intern | SecurNet</p>
+                      <p className="internship">February 2023 - June 2023</p>
                       <ul className="intern">
                         <li className="menu-item">
-                        Penetration testing was conceptualised and carried out to find potential flaws and verify tool coverage 
-                        in distributed systems I had configured. To be ready for this, I studied the fundamentals of pen testing 
-                        and discussed the project's crucial areas with the project's stakeholders.
+                        Designed and developed an open-source SOAR (Security Orchestration, Automation, and Response) system using Wazuh, Shuffle, and theHive.
                         </li>
                         <li className="menu-item">
-                        A SOAR (Security Orchestration, Automation and reaction) system was created by automating the SOC 
-                        (Security Operations Centre) to increase availability and reaction times. I employed open source software 
-                        such as Shuffle, theHive, and Cortex for this.
+                        This solution provides a cost-effective alternative to existing offerings by eliminating licensing expenses.
                         </li>
                         <li className="menu-item">
-                        To increase the availability and completeness of the product, I integrated several open source tools into Wazuh, the SIEM I was working on.
+                        Automated SOC workflows to accelerate incident response by 70% in distributed environments.
+                        </li>
+                        <li className="menu-item">
+                        Analyzed vulnerabilities with penetration testing, improving detection coverage by 50%.
+                        </li>
+                        <li>
+                        Integrated open-source tools into existing software, delivering real-time alerts for critical incidents.
                         </li>
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Still working on that</p>
+                      <p className="tthesis">Comparing columnar vectorization with indexes for real-time analytics and query systems</p>
+                      <p className="tthesiscon">
+                        <ul className="intern int2">
+                          <li className="menu-item">I collaborated with Kevel to develop my master's thesis, focusing on enhancing OLAP workloads through advanced columnar vectorization and indexing techniques. </li>
+                          <li className="menu-item">My research improved the performance of column-oriented query engines by leveraging SIMD- optimized vector instructions, improving query performance by 45%. </li>
+                          <li className="menu-item">SIMD optimizations boosted scan throughput by 30%, taking advantage of modern CPU architectures and cache sizes. </li>
+                          <li className="menu-item">These optimizations enable faster, real-time analytical insights, benefiting both business and scientific applications.</li>
+                        </ul>
+                      </p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
