@@ -1,8 +1,16 @@
 import meter1 from "../assets/img/patagonia.jpeg";
-import meter2 from "../assets/img/rio.jpeg";
-import meter3 from "../assets/img/meter90.png";
-import meter4 from "../assets/img/meter95.png";
+import meter2 from "../assets/img/brazil.jpeg";
+import meter3 from "../assets/img/bali.jpeg";
+import meter4 from "../assets/img/bolivia.jpeg";
 import meter5 from "../assets/img/singapore.jpeg";
+import meter6 from "../assets/img/italy.jpeg";
+import meter7 from "../assets/img/machu.jpeg";
+import meter8 from "../assets/img/dubai.jpeg";
+import meter9 from "../assets/img/vienna.jpeg";
+import meter10 from "../assets/img/colombia.jpeg";
+import meter11 from "../assets/img/athens.jpeg";
+import meter12 from "../assets/img/chile.jpeg";
+import meter13 from "../assets/img/amsterdam.jpeg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -51,16 +59,44 @@ export const Skills = () => {
                                 <h5>Brazil</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Communication</h5>
+                                <img src={meter3} alt="Image" />
+                                <h5>Indonesia</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" /> 
-                                <h5>Adaptability</h5>
+                                <img src={meter4} alt="Image" /> 
+                                <h5>Bolivia</h5>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
-                                <h5>Attention to Detail</h5>
+                                <img src={meter6} alt="Image" />
+                                <h5>Italy</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter7} alt="Image" />
+                                <h5>Peru</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter8} alt="Image" />
+                                <h5>UAE</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter9} alt="Image" />
+                                <h5>Austria</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter10} alt="Image" />
+                                <h5>Colombia</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter11} alt="Image" />
+                                <h5>Greece</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter12} alt="Image" />
+                                <h5>Chile</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter13} alt="Image" />
+                                <h5>Netherlands</h5>
                             </div>
                         </Carousel>
                     </div>

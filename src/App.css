@@ -546,6 +546,14 @@ a:-webkit-any-link:hover {
   width: 90%;
 }
 
+.skill h5 {
+  margin-top: 10px;
+}
+
+.skill button {
+  margin: -39px;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
