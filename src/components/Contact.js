@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://peppy-gumption-5cc7e3.netlify.app/contact", {
+    let response = await fetch("http://localhost:5001/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -77,14 +77,15 @@ export const Contact = () => {
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
-                    {
+                    
+                  </Row>
+                </form>
+                {
                       status.message &&
                       <Col>
                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                       </Col>
-                    }
-                  </Row>
-                </form>
+                }
               </div>}
             </TrackVisibility>
           </Col>
