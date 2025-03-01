@@ -72,14 +72,10 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi! I'm Afonso\n`} <br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack", "Scrum", "Algorithms" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a motivated and ambitious 21-year-old currently pursuing a Master's degree in 
-                    Informatics and Computing Engineering. I have a strong interest in problem-solving 
-                    and have already obtained real-world experience through an internship, which has 
-                    helped me hone my cybersecurity abilities.
+                  <p>I’m a 23-year-old finishing my Master’s in Informatics and Computing Engineering, with a strong interest in software engineering. Through internships, I’ve sharpened my skills, focusing on efficient, scalable solutions.
                   </p>
                   <p>
-                    I feel I am ready to embark on my professional journey as a software engineer, and 
-                    am excited to start working with a team of professionals that will guide me along the way.
+                  I’m seeking opportunities across Europe to contribute to innovative teams and continue growing in this field.
                   </p>
                   <button>
                     <HashLink to="#connect" style={{ textDecoration: 'none', color: '#0C4160'}}>

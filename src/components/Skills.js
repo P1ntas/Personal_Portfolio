@@ -11,6 +11,7 @@ import meter10 from "../assets/img/colombia.jpeg";
 import meter11 from "../assets/img/athens.jpeg";
 import meter12 from "../assets/img/chile.jpeg";
 import meter13 from "../assets/img/amsterdam.jpeg";
+import meter14 from "../assets/img/warsaw.jpeg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -73,6 +74,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter7} alt="Image" />
                                 <h5>Peru</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter14} alt="Image" />
+                                <h5>Poland</h5>
                             </div>
                             <div className="item">
                                 <img src={meter8} alt="Image" />
