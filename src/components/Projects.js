@@ -1,10 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg from "../assets/img/proj_lbaw.png";
-import projImg2 from "../assets/img/proj_aed.png";
+import projImg2 from "../assets/img/optiiscan.png";
 import projImg3 from "../assets/img/proj_lcom.JPG";
-import projImg4 from "../assets/img/under_work.jpg";
+import projImg4 from "../assets/img/pri.png";
 import projImg5 from "../assets/img/proj_esof.JPG";
+import projImg6 from "../assets/img/sdle.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -30,22 +31,22 @@ export const Projects = () => {
       url: "https://www.github.com/P1ntas/ESOF",
     },
     {
-      title: "Quickest path",
-      description: "Mapped STCP bus stops to residual graphs in order to find quickest route between two coordinates",
+      title: "Extract data from image",
+      description: "AI-powered tool for extracting product data from images, automating data entry and improving accuracy with computer vision.",
       imgUrl: projImg2,
-      url: "https://www.github.com/P1ntas/DA_Project_2",
+      url: "https://github.com/P1ntas/Optiiscan",
     },
     {
       title: "Real-time editor app",
       description: "Implemented a local-first app that allows real-time collaborative editing, using Amazon Dynamo and CRDTs",
-      imgUrl: projImg4,
-      url: "aaa",
+      imgUrl: projImg6,
+      url: "https://github.com/yoxerao/SDLE-PROJ",
     },
     {
       title: "Premier League Search Engine",
       description: "Developed a search engine for Premier League related statistics and news",
       imgUrl: projImg4,
-      url: "aaa",
+      url: "https://github.com/joao-teixeira02/PRI-proj",
     },
   ];
 
